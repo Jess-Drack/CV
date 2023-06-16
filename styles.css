@@ -64,6 +64,63 @@ p{
     width: 108.5%;
 }
 
+.circle_droit{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 40rem 0 0 0;
+    color: rgba(160, 155, 136, 0.5);
+    border: solid;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.circle2_droit{
+    width: 42rem;
+    height: 42rem;
+    border-radius: 42rem 0 0 0;
+    color: rgba(160, 155, 136, 0.5);
+    border: solid;
+    position: fixed;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
+
+.trait_droit {
+    width: 120%;
+    height: 2px;
+    position: fixed;
+    right: -64%;
+    background-color: rgba(160, 155, 136, 0.5);
+    transform: rotate(45deg);
+    z-index: -1;
+    bottom: 0;
+}
+
+.traitPetit_bas {
+    width: 108.5%;
+    z-index: -1;
+    height: 2px;
+    position: fixed;
+    right: -63%;
+    background-color: rgba(160, 155, 136, 0.5);
+    transform: rotate(45deg);
+    bottom: 0;
+}
+
+.traitPetit_droit {
+    width: 105%;
+    z-index: -1;
+    height: 2px;
+    position: fixed;
+    right: -52%;
+    background-color: rgba(160, 155, 136, 0.5);
+    transform: rotate(45deg);
+    bottom: 0;
+}
+
 .lien{
     text-decoration: none;
     color: white;
@@ -570,6 +627,33 @@ footer{
     .bas{
         left: -117%;
         width: 191.5%;
+    }
+
+    .circle_droit{
+        width: 21rem;
+        height: 21rem;
+        border-radius: 21rem 0 0 0;
+    }
+    
+    .circle2_droit{
+        width: 22rem;
+        height: 22rem;
+        border-radius: 22rem 0 0 0;
+    }
+    
+    .trait_droit {
+        width: 250%;
+        right: -134%;
+    }
+    
+    .traitPetit_bas {
+        width: 191.5%;
+        right: -117%;
+    }
+    
+    .traitPetit_droit {
+        width: 190%;
+        right: -91%;
     }
 
     .onglet_header{

@@ -356,6 +356,7 @@ h1{
 
 .hidden-text.active {
     height: auto;
+    margin-bottom: 2%;
     opacity: 1;
     transform: translateY(10px);
     transition: opacity 1s ease, transform 1s ease;

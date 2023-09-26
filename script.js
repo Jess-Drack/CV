@@ -19,9 +19,9 @@ function toggleText(id) {
     hoverText.classList.toggle("active");
     curseur.classList.toggle("active");
 }
-const slide = ["./images/artsPlastiques/arcane.png", "./images/artsPlastiques/Chacha.png", "./images/artsPlastiques/Pyra.png", "./images/artsPlastiques/angers.png", "./images/artsPlastiques/Nero.png", "./images/artsPlastiques/kirin.png", "./images/artsPlastiques/yokai.jpg", "./images/artsPlastiques/affiche.png"];
-const slideTitre = ["Les contes des arcanes", "Charlotte de Valois", "Pique-nique au bord d'une falaise", "Fantastique Angers", "Nero Kitsune de feu", "Kirin", "Affiche exposition Yokai", "Affiche exposition film & la femme dans le monde"];
-const slideDesc = ["Micro-entreprise", "Papier découpé", "Dessin numérique - Work in progress", "Affiche projet à Angers", "Dessin aquarelle", "Dessin numérique et ghost paper", "Dessin numérique", "Affiche en papier découpé et collé"];
+const slide = ["./images/artsPlastiques/arcane.png", "./images/artsPlastiques/Chacha.png", "./images/artsPlastiques/angers.png", "./images/artsPlastiques/kirin.png", "./images/artsPlastiques/yokai.jpg", "./images/artsPlastiques/affiche.png"];
+const slideTitre = ["Les contes des arcanes", "Charlotte de Valois", "Fantastique Angers", "Kirin", "Affiche exposition Yokai", "Affiche exposition film & la femme dans le monde"];
+const slideDesc = ["Micro-entreprise", "Papier découpé", "Affiche projet à Angers", "Dessin numérique et ghost paper", "Dessin numérique", "Affiche en papier découpé et collé"];
 let numero = 0;
 
 function ChangeSlide(sens) {

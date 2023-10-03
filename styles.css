@@ -794,6 +794,10 @@ footer{
         margin-top: 2%;
     }
 
+    .imgContainer{
+        height: 42.6vw;
+    }
+
     .descriptionArtPlastique{
         font-size: 17px;
     }

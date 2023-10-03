@@ -19,7 +19,7 @@ function toggleText(id) {
     hoverText.classList.toggle("active");
     curseur.classList.toggle("active");
 }
-const slide = ["./images/artsPlastiques/arcane.png", "./images/artsPlastiques/Chacha.png", "./images/artsPlastiques/angers.png", "./images/artsPlastiques/kirin.png", "./images/artsPlastiques/yokai.jpg", "./images/artsPlastiques/affiche.png"];
+const slide = ["./images/artsPlastiques/arcane.webp", "./images/artsPlastiques/Chacha.png", "./images/artsPlastiques/angers.webp", "./images/artsPlastiques/kirin.webp", "./images/artsPlastiques/yokai.webp", "./images/artsPlastiques/affiche.webp"];
 const slideTitre = ["Les contes des arcanes", "Charlotte de Valois", "Fantastique Angers", "Kirin", "Affiche exposition Yokai", "Affiche exposition film & la femme dans le monde"];
 const slideDesc = ["Micro-entreprise", "Papier découpé", "Affiche projet à Angers", "Dessin numérique et ghost paper", "Dessin numérique", "Affiche en papier découpé et collé"];
 let numero = 0;
@@ -51,25 +51,4 @@ function ChangeWebSlide(sens) {
     document.getElementById("webRef").href =webRef[numeroWeb];
     document.getElementById('webSlideTitre').textContent = webSlideTitre[numeroWeb];
     document.getElementById('webSlideDesc').textContent = webSlideDesc[numeroWeb];
-}
-
-// Test modal
-var modal = document.getElementById("myModal");
-
-var btn = document.getElementById("open_modal");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
 }
